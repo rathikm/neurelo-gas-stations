@@ -30,12 +30,7 @@ function App() {
         currentDate = `${year}-${month}-${day}`;
 
         let prevDate = new Date(currentDate)
-        //note: the number 4 should be changed to the difference
-        //between the current date and the last fetched date
-        //this is a band-aid solution for now and if you run the
-        //scraper every day then this would be - 1, not  - 4
         prevDate.setDate(cD.getDate() - 4);
-
         const prevYear = prevDate.getFullYear();
         const prevMonth = String(prevDate.getMonth() + 1).padStart(2, '0');
         const prevDay = String(prevDate.getDate()).padStart(2, '0');
