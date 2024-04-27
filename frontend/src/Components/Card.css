@@ -1,0 +1,17 @@
+.card-title {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.card-subtitle {
+color: #666;
+margin: 0;
+}
+
+.card-body {
+color: #333;
+}
+
+.card-text {
+margin-bottom: 8px;
+}
