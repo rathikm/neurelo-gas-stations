@@ -11,7 +11,7 @@ function App() {
     const fetchData = async () => {
       try {
         const headers = {
-          'X-API-KEY': '*replace with key*'
+          'X-API-KEY': process.env.API_KEY
         };
         const response = await fetch(url, {
           method: 'GET',
