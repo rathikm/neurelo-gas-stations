@@ -11,7 +11,7 @@ function App() {
     const fetchData = async () => {
       try {
         const headers = {
-          'X-API-KEY': '*replace with key*'
+          'X-API-KEY': 'neurelo_9wKFBp874Z5xFw6ZCfvhXVQU9pnHmbAv5edlaig3qdSUOCop0N+d/NGLk0aV5YoRvKeEE3pM7af9o+caIvBNGAolbShZq3WIn3ZeWUDDpqN0TbUp7WCXi5o+zbsTsWgsHdS65hGxoQ3LMqgj8ZXTQ1a0kTSxy9YdEVjfqATY66V2vvEdoVHM1WXM6I90Gndp_bDQ2YgRW3zz6brbRd0yhZiIYad//wiBYPruXg+BRYCs='
         };
         const response = await fetch(url, {
           method: 'GET',
